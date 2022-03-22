@@ -50,6 +50,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "https://www.olliehermans.com/rating-component",
               "outputHashing": "all"
             },
             "development": {
