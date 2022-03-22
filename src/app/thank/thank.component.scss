@@ -1,0 +1,35 @@
+.thank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.5rem;
+
+  &__img {
+    margin-top: 2rem;
+  }
+
+  &__selected {
+    font-size: 1.6rem;
+    color: orange;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    background-color: var(--iconblue);
+    border-radius: 2rem;
+  }
+
+  &__header {
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 400;
+    margin-top: 3rem;
+  }
+
+  &__paragraph {
+    color: var(--lightgrey);
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+}
